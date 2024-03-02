@@ -1,11 +1,13 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from '/Users/muham/Documents/uottawahack6/hackathon/scan/ecoscan/src/Components/navbar.js'; // Import the NavBar component
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <NavBar /> {/* Include the NavBar component here */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -23,3 +25,4 @@ function App() {
 }
 
 export default App;
+

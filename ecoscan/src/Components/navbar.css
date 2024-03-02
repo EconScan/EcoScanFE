@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, Tahoma, Serif;
+    color: #263238;
+  }
+  
+  nav {
+    position: fixed; /* Keep the navbar fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Occupy full width of the screen */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #cfd8dc;
+    z-index: 1000; /* Ensure the navbar is on top of other content */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    padding-left: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0d47a1;
+  }
+  
+  
+  
+  
+  

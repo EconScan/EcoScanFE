@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from '/Users/muham/Documents/uottawahack6/hackathon/scan/ecoscan/src/logo.svg';
-import '/Users/muham/Documents/uottawahack6/hackathon/scan/ecoscan/src/Components/navbar.css';
+import './navbar.css';
 
 function NavBar() {
   return (

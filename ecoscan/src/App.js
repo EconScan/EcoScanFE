@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavBar from '/Users/muham/Documents/uottawahack6/hackathon/scan/ecoscan/src/Components/navbar.js'; // Import the NavBar component
+import NavBar from '../src/Components/navbar'; // Import the NavBar component
 
 function App() {
   return (
